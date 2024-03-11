@@ -1,0 +1,25 @@
+body{
+   background: #808678;
+}
+th{
+   text-align: left;
+}
+.table{
+   text-align: left;
+   padding: 20px;
+   
+}
+#tableHeader{
+   font-style: italic;
+   padding-right: 20px;
+
+}
+#photo{
+   padding: 20px;
+   border-radius: 30px;
+}
+.links{
+   text-decoration: underline;
+   color: black;
+   text-align: left;
+}
