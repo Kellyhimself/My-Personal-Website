@@ -1,5 +1,6 @@
 body{
-   background: #808678;
+   background: rgb(253, 252, 250);
+   position: absolute;
 }
 th{
    text-align: left;
@@ -17,9 +18,67 @@ th{
 #photo{
    padding: 20px;
    border-radius: 30px;
+   text-align: center;
+   position: relative;
+   margin-left: 300px;
+   width: "200";
+
+
 }
 .links{
    text-decoration: underline;
    color: black;
    text-align: left;
+}
+nav{
+   display: flex;
+   align-items: center;
+   text-transform: uppercase;
+   
+   width: 100%;
+   top: 0;
+   
+   margin-right: 0px;
+}
+nav ul li a{
+   padding: 1rem 0;
+   margin: 0 3rem;
+   position: relative;
+   letter-spacing: 2px;
+ 
+ }
+nav ul {
+   display: flex;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+nav li {
+   margin-right: 12px;
+}
+nav li a:hover{
+   color: rgb(3, 0, 0);   
+}
+nav li a{
+   text-decoration: underline;
+   columns: rgb(236, 130, 130);
+}
+p em{
+   color: rgb(236, 130, 130);
+}
+a:hover{
+   color: bisque; 
+}
+.header{
+   color: white;
+   width: 100%;
+  height: 30vh;
+  background-image: url(https://www.wallpapertip.com/wmimgs/219-2193017_dark-sky-background-png.png);
+}
+button{
+   display: inline-block; /*to enable the ability to add width and height to our button. */
+   background-color: #575645; /* a fancy background color for the button. */
+   padding: 20px; /* makes a bit more room for our button in all four sides. */
+   width: 150px ;/* gives a 150px width. */
+   color: #ffffff; /* makes the Submit text white. */
 }
