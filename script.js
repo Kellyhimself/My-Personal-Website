@@ -1,7 +1,7 @@
 const h2 = document.createElement("h2");
 h2.textContent = "This content was added by JavaScript";
 document.querySelector("body").appendChild(h2);
-
+  
 const button = document.getElementById("supriseMe");
 button.addEventListener("click", function (){
     const randomNumber = Math.floor(Math.random()*6);
